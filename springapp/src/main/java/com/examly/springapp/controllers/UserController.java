@@ -15,7 +15,7 @@ import com.examly.springapp.services.UserService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://8080-dffafdafedbdcbadebfefaccdcffceeecaffac.premiumproject.examly.io")
+@CrossOrigin(origins = "https://8080-fafaecccbdadfdcfeaefdacceeedccecceedbaecdaaf.premiumproject.examly.io/")
 public class UserController {
 
 	@Autowired

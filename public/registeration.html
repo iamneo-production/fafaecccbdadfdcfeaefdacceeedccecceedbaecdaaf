@@ -2,8 +2,34 @@
 <html>
 <head>
     <title>Registration Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./registrationValidation.js"></script>
 </head>
 <body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form id="registrationForm" onsubmit="return validateRegistration();" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span id="passwordValidation" class="validation-message"></span>
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <span id="passwordValidation1" class="validation-message"></span>
 
+            
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="" disabled selected>Select role</option>
+                <option value="admin">Admin</option>
+                <option value="organizer">Organizer</option>
+            </select>
+            
+            <input type="submit" value="Register">
+        </form>
+    </div>
 </body>
 </html>

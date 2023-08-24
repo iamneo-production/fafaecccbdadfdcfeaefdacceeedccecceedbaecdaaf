@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.CricketerTest
 -------------------------------------------------------------------------------
-Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.753 s - in com.examly.springapp.CricketerTest
+Tests run: 31, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.446 s <<< FAILURE! - in com.examly.springapp.CricketerTest
+Week2_Day2_testWelcome  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.CricketerTest.Week2_Day2_testWelcome(CricketerTest.java:278)
+

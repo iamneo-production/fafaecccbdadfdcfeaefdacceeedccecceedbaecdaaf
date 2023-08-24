@@ -17,7 +17,7 @@ import com.examly.springapp.services.OrganizerService;
 
 @RestController
 @RequestMapping("/api/organizer")
-@CrossOrigin(origins = "https://8081-dffafdafedbdcbadebfefaccdcffceeecaffac.premiumproject.examly.io")
+@CrossOrigin(origins = "https://8081-fafaecccbdadfdcfeaefdacceeedccecceedbaecdaaf.premiumproject.examly.io")
 public class OrganizerController {
     private OrganizerService organizerService;
 

@@ -25,7 +25,7 @@ import com.examly.springapp.services.AdminService;
 public class AdminController {
     private AdminService adminService;
 
-    @CrossOrigin(origins = "https://8080-dffafdafedbdcbadebfefaccdcffceeecaffac.premiumproject.examly.io")
+    @CrossOrigin(origins = "https://8080-fafaecccbdadfdcfeaefdacceeedccecceedbaecdaaf.premiumproject.examly.io")
     @GetMapping("/players")
     public List<Player> getAllPlayers() {
     	List <Player> player = adminService.getAllPlayers();
@@ -67,13 +67,13 @@ return "Welcome to SpringProject";
     }
 
 
-    @CrossOrigin(origins = "https://8080-dffafdafedbdcbadebfefaccdcffceeecaffac.premiumproject.examly.io")
+    @CrossOrigin(origins = "https://8080-fafaecccbdadfdcfeaefdacceeedccecceedbaecdaaf.premiumproject.examly.io")
     @PostMapping("/teams")
     public Team createTeam(@RequestBody Team team) {
         return adminService.createTeam(team);
     }
 
-    @CrossOrigin(origins = "https://8080-dffafdafedbdcbadebfefaccdcffceeecaffac.premiumproject.examly.io")
+    @CrossOrigin(origins = "https://8080-fafaecccbdadfdcfeaefdacceeedccecceedbaecdaaf.premiumproject.examly.io")
     @GetMapping("/teams")
     public List<Team> getAllTeams() {
     	List <Team> teams = adminService.getAllTeams();
@@ -98,7 +98,7 @@ return "Welcome to SpringProject";
     }
 
     // Endpoint to create a new player
-    @CrossOrigin(origins = "https://8080-dffafdafedbdcbadebfefaccdcffceeecaffac.premiumproject.examly.io")
+    @CrossOrigin(origins = "https://8080-fafaecccbdadfdcfeaefdacceeedccecceedbaecdaaf.premiumproject.examly.io")
     @PostMapping("/players")
     public Player createPlayer(@RequestBody Player player) {
         return adminService.createPlayer(player);

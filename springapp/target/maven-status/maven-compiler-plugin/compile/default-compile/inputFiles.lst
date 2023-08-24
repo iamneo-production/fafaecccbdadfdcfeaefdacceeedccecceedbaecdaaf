@@ -4,8 +4,8 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repositories/TeamRepository.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/exceptions/ExceedsTeamBudgetException.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controllers/TeamController.java
-/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/TeamsService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controllers/OrganizerController.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/TeamsService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/Cricketer.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repositories/PlayerRepository.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repositories/UserRepository.java
@@ -25,8 +25,8 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/services/EmailService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/configurations/UserPrinciple.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/services/TeamService.java
-/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/services/OrganizerService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controllers/AdminController.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/services/OrganizerService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/CricketerService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/TeamDAO.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/Service.java

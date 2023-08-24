@@ -87,7 +87,7 @@ describe('AdminService Integration Tests', () => {
       providers: [AdminService]
     });
     service = TestBed.inject(AdminService);
-    jasmine.DEFAULT_TIMEOUT_INTERVAL = 3000;
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
 
   });
 

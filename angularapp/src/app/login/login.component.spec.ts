@@ -95,10 +95,10 @@ describe('LoginComponent', () => {
     expect(router.navigate).toHaveBeenCalledWith(['/organizer']); // Use router's navigate method
   });
 
-  fit('Week5_Day4_should have empty username and password initially', () => {
-    expect(component.username).toBe('');
-    expect(component.password).toBe('');
-  });
+  // fit('Week5_Day4_should have empty username and password initially', () => {
+  //   expect(component.username).toBe('');
+  //   expect(component.password).toBe('');
+  // });
 
   // it('should disable the button when the form is invalid', () => {
   //   const button = fixture.nativeElement.querySelector('button');

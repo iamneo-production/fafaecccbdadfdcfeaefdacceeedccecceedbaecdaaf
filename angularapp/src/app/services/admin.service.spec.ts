@@ -100,7 +100,7 @@ describe('AdminService Integration Tests', () => {
     expect(service).toBeTruthy();
   });
 
-  fit('Week5_Day3_should retrieve teams from the backend', (done: DoneFn) => {
+  fit('Admin Service should retrieve teams from the backend', (done: DoneFn) => {
     service.getTeams().subscribe(
       (teams: Team[]) => {
         console.log(teams)
@@ -113,7 +113,7 @@ describe('AdminService Integration Tests', () => {
     );
   });
 
-  fit('Week5_Day3_should create a new team via the backend', (done: DoneFn) => {
+  fit('Admin Service should create a new team via the backend', (done: DoneFn) => {
     const newTeam: Team = { id: 3, name: 'New Team', maximumBudget: 50000 };
 
     service.createTeam(newTeam).subscribe(
@@ -127,7 +127,7 @@ describe('AdminService Integration Tests', () => {
     );
   });
 
-  fit('Week5_Day3_should retrieve players from the backend', (done: DoneFn) => {
+  fit('Admin Service should retrieve players from the backend', (done: DoneFn) => {
     service.getPlayers().subscribe(
       (players: Player[]) => {
         console.log(players)

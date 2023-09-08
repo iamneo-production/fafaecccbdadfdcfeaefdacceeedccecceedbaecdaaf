@@ -8,14 +8,14 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/TeamsService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/Cricketer.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repositories/PlayerRepository.java
-/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repositories/UserRepository.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/configurations/CorsConfig.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repositories/UserRepository.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/entities/User.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/CricketDAO.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/CricketerAgeComparator.java
-/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/services/AdminService.java
-/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/entities/Team.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/configurations/ApplSecurityConfig.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/entities/Team.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/services/AdminService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/configurations/AuthenticationBean.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/configurations/MyUserDetailsService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controllers/UserController.java
@@ -30,5 +30,5 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/CricketerService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/TeamDAO.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/Service.java
-/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/Client.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/Teams.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/Client.java

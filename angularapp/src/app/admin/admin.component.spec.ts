@@ -75,7 +75,7 @@ describe('AdminComponent', () => {
   //   expect(component.newTeam).toEqual({ name: '', maximumBudget: 0 });
   // }));
 
-  fit('Week5_Day4_should add a new player on form submission', fakeAsync(() => {
+  it('Week5_Day4_should add a new player on form submission', fakeAsync(() => {
     const initialPlayerCount = component.players.length;
     component.newPlayer = { name: 'New Player', age: 25 };
 
@@ -85,18 +85,18 @@ describe('AdminComponent', () => {
     expect(component.players.length).toBe(initialPlayerCount + 1);
   }));
 
-  // fit('Week5_Day3_should get teams and players on initialization', () => {
-  //   const mockTeams: Team[] = [{ id: 1, name: 'Team A', maximumBudget: 100000 }];
-  //   const mockPlayers: Player[] = [{ id: 1, name: 'Player 1', age: 25 }];
+  fit('Week5_Day3_should get teams and players on initialization', () => {
+    const mockTeams: Team[] = [{ id: 1, name: 'Team A', maximumBudget: 100000 }];
+    const mockPlayers: Player[] = [{ id: 1, name: 'Player 1', age: 25 }];
 
-  //   mockAdminService.getTeams.and.returnValue(of(mockTeams));
-  //   mockAdminService.getPlayers.and.returnValue(of(mockPlayers));
+    mockAdminService.getTeams.and.returnValue(of(mockTeams));
+    mockAdminService.getPlayers.and.returnValue(of(mockPlayers));
 
-  //   fixture.detectChanges();
+    fixture.detectChanges();
 
-  //   expect(component.teams).toEqual(mockTeams);
-  //   expect(component.players).toEqual(mockPlayers);
-  // });
+    expect(component.teams).toEqual(mockTeams);
+    expect(component.players).toEqual(mockPlayers);
+  });
 
   // it('should display team details', () => {
   //   const teamElement = fixture.nativeElement.querySelector('.team-list li');

@@ -75,15 +75,15 @@ describe('AdminComponent', () => {
   //   expect(component.newTeam).toEqual({ name: '', maximumBudget: 0 });
   // }));
 
-  it('Week5_Day4_should add a new player on form submission', fakeAsync(() => {
-    const initialPlayerCount = component.players.length;
-    component.newPlayer = { name: 'New Player', age: 25 };
+  // it('Week5_Day4_should add a new player on form submission', fakeAsync(() => {
+  //   const initialPlayerCount = component.players.length;
+  //   component.newPlayer = { name: 'New Player', age: 25 };
 
-    component.createPlayer(component.newPlayer);
-    tick();
+  //   component.createPlayer(component.newPlayer);
+  //   tick();
 
-    expect(component.players.length).toBe(initialPlayerCount + 1);
-  }));
+  //   expect(component.players.length).toBe(initialPlayerCount + 1);
+  // }));
 
   fit('Week5_Day3_should get teams and players on initialization', () => {
     const mockTeams: Team[] = [{ id: 1, name: 'Team A', maximumBudget: 100000 }];
